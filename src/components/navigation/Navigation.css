@@ -1,0 +1,90 @@
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--nav-bg-color);
+  padding: 20px 80px;
+}
+
+.nav h2 {
+  color: var(--text-title);
+  margin-left: -10%;
+  font-size: 200%;
+}
+
+.nav .navbar-toggle {
+  margin-left: 230px;
+  background-color: #dbdbdb;
+}
+
+.me-auto{
+  margin-left: 30px;
+}
+.nav .nav-link {
+  cursor: pointer;
+  margin-left: 40px;
+  font-size: 1.4rem;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.nav .nav-link:hover {
+  color: rgb(0, 39, 145);
+  border-bottom: 2px solid rgb(0, 39, 145);
+  padding-bottom: 5px;
+}
+
+#navBarColor {
+  background-color: rgb(8, 8, 46);
+  transition: .6s;
+}
+
+#navBarColor .nav-link:hover {
+  border-bottom: 2px solid #0438C6;
+  padding-bottom: 5px;
+}
+
+#heading {
+  color: var(--text-primary);
+}
+
+.nav-link #MoviesDark {
+  color: rgb(0, 39, 145);
+}
+
+.nav-link #MoviesDark:hover {
+  color: rgb(0, 39, 145);
+  border-bottom: 2px solid rgb(0, 31, 116);
+  padding-bottom: 5px;
+}
+
+#Color-switcher {
+  position: relative;
+  margin-left: 80px;
+  background-color: #0f0f0f;
+  width: 60px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+#Color-switcher-mover {
+  position: absolute;
+  left: 5px;
+  top: 4px;
+  background-color: #fff;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  transition: .6s;
+}
+
+#Color-switcher-moved {
+  position: absolute;
+  background-color: #fff;
+  left: 33px;
+  top: 4px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  transition: .6s;
+}

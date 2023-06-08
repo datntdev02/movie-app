@@ -1,0 +1,80 @@
+.detail-container {
+    min-width: 100%;
+    min-height: 100vh;
+    padding: 10px 30px;
+    background-color: var(--background);
+}
+
+.detail-main {
+    width: 95%;
+    max-width: 100%;
+    margin: 1% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.detail-main img {
+    height: auto;
+    width: 38%;
+    border-radius: 5px;
+}
+
+.movie-detail {
+    box-shadow: -2px 2px 5px 5px var(--border);
+    background-color: var(--background);
+    margin: 1.2rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.movie-detail h2 {
+    color: var(--text-title);
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+
+.movie-detail .detail-year,
+.detail-nation,
+.detail-type,
+.detail-time,
+.detail-description{
+    color: var(--text-title);
+    text-align: left;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    letter-spacing: 2px;
+
+}
+
+.movie-detail p {
+    color: var(--text-title);
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 3%;
+    margin-left: 3%;
+}
+
+.trailer-button{
+    display: grid;
+    padding: 10px 10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.watch-button{
+    display: grid;
+    padding: 10px 10px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
