@@ -1,1 +1,1 @@
-Please run "npm i" before compile code.
+Please run the command: < npm i > before starting the project.
