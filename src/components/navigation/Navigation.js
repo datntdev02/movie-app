@@ -7,11 +7,11 @@ import { NavLink } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import './Navigation.css'
 
-export const Theme = React.createContext();
+export const ThemeContext = React.createContext();
 function Navigation() {
   const [toggle, setToggle] = useState(true)
   return (
-    <Theme.Provider value={toggle}>
+    <ThemeContext.Provider value={toggle}>
       <div id={toggle ? '' : 'navBarColor'} className='nav'>
         <Container>
           <Navbar expand="lg" collapseOnSelect >
@@ -44,7 +44,7 @@ function Navigation() {
           </Navbar>
         </Container>
       </div>
-    </Theme.Provider>
+    </ThemeContext.Provider>
 
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Contact.css'
-import { Button, TextField } from '@mui/material'
+import { Button } from '@mui/material'
 import { Col, Row } from 'react-bootstrap'
 
 function Contact() {
@@ -44,7 +44,7 @@ function Contact() {
               <Row>
                 <Col className='form-group'>
                   <label>Name</label>
-                  <input type="text" class="form-control" placeholder='Your Name'/>
+                  <input type="text" class="form-control" placeholder='Your Name' />
                 </Col>
                 <Col className='form-group'>
                   <label>Email</label>

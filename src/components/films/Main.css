@@ -10,7 +10,6 @@
     justify-content: center;
     flex-wrap: wrap;
     cursor: pointer;
-
 }
 
 .primaryBg {
@@ -69,9 +68,10 @@ img {
 
 .button {
     display: grid;
-    margin: auto;
+    margin: 0 100px;
+    margin-bottom: 10px;
+    padding: 5px;
     background-color: var(--button-color);
-    padding: 10px 150px;
     color: var(--text-primary);
     text-decoration: none;
     text-align: center;

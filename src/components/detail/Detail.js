@@ -26,6 +26,7 @@ function Detail() {
                 <img src={`../${film.img}`} alt='' />
                 <div className='movie-detail'>
                     <div><h2>{film.title}</h2></div>
+                    <hr/>
                     <div className='detail-year'><strong>Publisher year:</strong> {film.year}</div>
                     <div className='detail-nation'><strong>Nation:</strong> {film.nation}</div>
                     <div className='detail-type'><strong>Type:</strong> {film.type}</div>

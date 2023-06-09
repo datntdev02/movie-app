@@ -14,7 +14,7 @@ function App() {
     <div className='App'>
       <div className='content-wrap'>
       <Navigation />
-      <Routes>
+            <Routes>
         <Route path='/' element={<Main />}>
         </Route>
         <Route path='/news' element={<News />}></Route>
