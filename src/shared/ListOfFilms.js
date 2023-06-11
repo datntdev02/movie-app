@@ -1,7 +1,7 @@
 export const Films = [
     {
         id: 1,
-        img: 'assets/images/inception.jpg',
+        img: 'assets/images/film/inception.jpg',
         title: 'Inception',
         year: '2010',
         nation: 'USA',
@@ -13,7 +13,7 @@ export const Films = [
     },
     {
         id: 2,
-        img: 'assets/images/minions.jpg',
+        img: 'assets/images/film/minions.jpg',
         title: 'Minions: The Rise of Gru',
         year: '2022',
         nation: 'USA',
@@ -25,7 +25,7 @@ export const Films = [
     },
     {
         id: 3,
-        img: 'assets/images/wwz.jpg',
+        img: 'assets/images/film/wwz.jpg',
         title: 'World War Z',
         year: '2013',
         nation: 'USA',
@@ -37,7 +37,7 @@ export const Films = [
     },
     {
         id: 4,
-        img: 'assets/images/munich.jpg',
+        img: 'assets/images/film/munich.jpg',
         title: 'Munich: The Edge of War',
         year: '2021',
         nation: 'USA',
@@ -49,7 +49,7 @@ export const Films = [
     },
     {
         id: 5,
-        img: 'assets/images/day-shift.jpg',
+        img: 'assets/images/film/day-shift.jpg',
         title: 'Day Shift',
         year: '2022',
         nation: 'USA',
@@ -61,7 +61,7 @@ export const Films = [
     },
     {
         id: 6,
-        img: 'assets/images/Ted.jpg',
+        img: 'assets/images/film/Ted.jpg',
         title: 'Ted',
         year: '2012',
         nation: 'USA',
@@ -73,7 +73,7 @@ export const Films = [
     },
     {
         id: 7,
-        img: 'assets/images/shrek.jpg',
+        img: 'assets/images/film/shrek.jpg',
         title: 'Shrek Forever After',
         year: '2010',
         nation: 'USA',
@@ -85,7 +85,7 @@ export const Films = [
     },
     {
         id: 8,
-        img: 'assets/images/chupa.jpg',
+        img: 'assets/images/film/chupa.jpg',
         title: 'Chupa',
         year: '2023',
         nation: 'USA',
@@ -97,7 +97,7 @@ export const Films = [
     },
     {
         id: 9,
-        img: 'assets/images/the-sea-beast.jpg',
+        img: 'assets/images/film/the-sea-beast.jpg',
         title: 'The Sea Beast',
         year: '2022',
         nation: 'USA',
@@ -109,7 +109,7 @@ export const Films = [
     },
     {
         id: 10,
-        img: 'assets/images/enola.jpg',
+        img: 'assets/images/film/enola.jpg',
         title: 'Enola Holmes',
         year: '2020',
         nation: 'USA',
@@ -121,7 +121,7 @@ export const Films = [
     },
     {
         id: 11,
-        img: 'assets/images/pinocchio.jpg',
+        img: 'assets/images/film/pinocchio.jpg',
         title: 'Pinocchio',
         year: '2022',
         nation: 'USA',
@@ -133,7 +133,7 @@ export const Films = [
     },
     {
         id: 12,
-        img: 'assets/images/bullet-train.jpg',
+        img: 'assets/images/film/bullet-train.jpg',
         title: 'Bullet Train',
         year: '2022',
         nation: 'USA',
