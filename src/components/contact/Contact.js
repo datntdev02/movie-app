@@ -11,7 +11,7 @@ function Contact() {
     <div>
       <div className='contact'>
         <div className='content'>
-          <h1>Contact Us</h1>
+          <h1>Get in touch</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
         <Row className='contact-container'>

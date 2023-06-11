@@ -19,10 +19,13 @@
   color: #fff;
   float: left;
   font-size: 32px;
+  font-weight: 800;
+  text-shadow: 1 0 10px #0438C6;
 }
 
 #heading {
   color: #000;
+  text-shadow: 0 0 10px #0438C6;
 }
 
 .nav .navbar-toggle {
@@ -33,19 +36,17 @@
 .nav .nav-link {
   cursor: pointer;
   margin-left: 50px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: 'Merriweather Sans', sans-serif;
   text-shadow: 0 1px 2px #000;
 }
 
 .nav .nav-link:hover {
   border-bottom: 2px solid #268BFF;
-  padding-bottom: 5px;
 }
 
 #navBarColor .nav-link:hover {
   border-bottom: 2px solid #0438C6;
-  padding-bottom: 5px;
 }
 
 .nav-link #MoviesLight {
@@ -91,10 +92,11 @@
 }
 
 @media (max-width: 996px) {
-  .nav .navbar-toggle{
+  .nav .navbar-toggle {
     margin-left: 10px;
   }
-  #Color-switcher{
+
+  #Color-switcher {
     margin-left: 57px;
   }
 }

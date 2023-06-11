@@ -15,26 +15,26 @@ function Navigation() {
       <div id={toggle ? '' : 'navBarColor'} className='nav'>
         <Container>
           <Navbar expand="lg" collapseOnSelect >
-            <Navbar.Brand><h2 id={toggle ? '' : 'heading'}>Film Las Cruces</h2>
+            <Navbar.Brand><h2 id={toggle ? '' : 'heading'}>FILM LAS CRUCES</h2>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" className='navbar-toggle' />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
                 <NavLink to="/" className="nav-link" id={toggle ? '' : 'MoviesLight'}
                   style={({ isActive }) => { return { color: isActive ? '#268BFF' : '#fff' } }}>
-                  Home
+                  HOME
                 </NavLink>
                 <NavLink to="/news" className="nav-link" id={toggle ? '' : 'MoviesLight'}
                   style={({ isActive }) => { return { color: isActive ? '#268BFF' : '#fff' } }}>
-                  News
+                  NEWS
                 </NavLink>
                 <NavLink to="/about" className="nav-link" id={toggle ? '' : 'MoviesLight'}
                   style={({ isActive }) => { return { color: isActive ? '#268BFF' : '#fff' } }}>
-                  About
+                  ABOUT
                 </NavLink>
                 <NavLink to="/contact" className="nav-link" id={toggle ? '' : 'MoviesLight'}
                   style={({ isActive }) => { return { color: isActive ? '#268BFF' : '#fff' } }}>
-                  Contact
+                  CONTACT
                 </NavLink>
               </Nav>
             </Navbar.Collapse>
