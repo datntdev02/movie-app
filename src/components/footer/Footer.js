@@ -1,13 +1,13 @@
 import React from 'react'
-import './Footer.css'
+import './Footer.scss'
 
 function Footer() {
   return (
     <div className='footer-main'>
       <div className='footer-container'>
-        <div className='row'>
+        <div className='row footer-main'>
           <div className='col'>
-            <h4>Films Las Cruces</h4>
+            <h4><strong>Films Las Cruces</strong></h4>
             <ul className='list-unstyled'>
               <li>0909090909</li>
               <li>FilmLasCruces@gmail.com</li>
@@ -15,7 +15,7 @@ function Footer() {
             </ul>
           </div>
           <div className='col'>
-            <h4>About Us</h4>
+            <h4><strong>About Us</strong></h4>
             <ul className='list-unstyled'>
               <li>Home</li>
               <li>News</li>
@@ -23,7 +23,7 @@ function Footer() {
             </ul>
           </div>
           <div className='col'>
-            <h4>Services</h4>
+            <h4><strong>Services</strong></h4>
             <ul className='list-unstyled'>
               <li>Film Information</li>
               <li>Film Trailer</li>

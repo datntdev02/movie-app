@@ -1,0 +1,22 @@
+.footer-container {
+  color: #fff;
+  background-color: #000;
+  padding: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+
+  .footer-main {
+    padding-left: 10%;
+  }
+
+  hr {
+    height: 10px;
+  }
+
+  p {
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+  }
+}
