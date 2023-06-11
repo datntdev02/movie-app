@@ -20,20 +20,20 @@ function Navigation() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" className='navbar-toggle' />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
-                <NavLink to="/" className="nav-link" id={toggle ? '' : 'MoviesDark'}
-                  style={({ isActive }) => { return { color: isActive ? '#0438C6' : '#fff' } }}>
+                <NavLink to="/" className="nav-link" id={toggle ? '' : 'MoviesLight'}
+                  style={({ isActive }) => { return { color: isActive ? '#268BFF' : '#fff' } }}>
                   Home
                 </NavLink>
-                <NavLink to="/news" className="nav-link" id={toggle ? '' : 'MoviesDark'}
-                  style={({ isActive }) => { return { color: isActive ? '#0438C6' : '#fff' } }}>
+                <NavLink to="/news" className="nav-link" id={toggle ? '' : 'MoviesLight'}
+                  style={({ isActive }) => { return { color: isActive ? '#268BFF' : '#fff' } }}>
                   News
                 </NavLink>
-                <NavLink to="/about" className="nav-link" id={toggle ? '' : 'MoviesDark'}
-                  style={({ isActive }) => { return { color: isActive ? '#0438C6' : '#fff' } }}>
+                <NavLink to="/about" className="nav-link" id={toggle ? '' : 'MoviesLight'}
+                  style={({ isActive }) => { return { color: isActive ? '#268BFF' : '#fff' } }}>
                   About
                 </NavLink>
-                <NavLink to="/contact" className="nav-link" id={toggle ? '' : 'MoviesDark'}
-                  style={({ isActive }) => { return { color: isActive ? '#0438C6' : '#fff' } }}>
+                <NavLink to="/contact" className="nav-link" id={toggle ? '' : 'MoviesLight'}
+                  style={({ isActive }) => { return { color: isActive ? '#268BFF' : '#fff' } }}>
                   Contact
                 </NavLink>
               </Nav>

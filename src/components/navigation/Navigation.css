@@ -3,14 +3,26 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--nav-bg-color);
-  padding: 20px 80px;
+  background-color: #000;
+  padding: 0 20px;
+  border-bottom: 2px solid #fff;
+  position: relative;
+}
+
+#navBarColor {
+  background-color: #ccc;
+  transition: .6s;
 }
 
 .nav h2 {
-  color: var(--text-title);
-  margin-left: -10%;
-  font-size: 200%;
+  margin: 0;
+  color: #fff;
+  float: left;
+  font-size: 32px;
+}
+
+#heading {
+  color: #000;
 }
 
 .nav .navbar-toggle {
@@ -18,25 +30,17 @@
   background-color: #dbdbdb;
 }
 
-.me-auto{
-  margin-left: 30px;
-}
 .nav .nav-link {
   cursor: pointer;
-  margin-left: 40px;
+  margin-left: 50px;
   font-size: 1.4rem;
   font-family: 'Merriweather Sans', sans-serif;
+  text-shadow: 0 1px 2px #000;
 }
 
 .nav .nav-link:hover {
-  color: rgb(0, 39, 145);
-  border-bottom: 2px solid rgb(0, 39, 145);
+  border-bottom: 2px solid #268BFF;
   padding-bottom: 5px;
-}
-
-#navBarColor {
-  background-color: rgb(8, 8, 46);
-  transition: .6s;
 }
 
 #navBarColor .nav-link:hover {
@@ -44,15 +48,11 @@
   padding-bottom: 5px;
 }
 
-#heading {
-  color: var(--text-primary);
-}
-
-.nav-link #MoviesDark {
+.nav-link #MoviesLight {
   color: rgb(0, 39, 145);
 }
 
-.nav-link #MoviesDark:hover {
+.nav-link #MoviesLight:hover {
   color: rgb(0, 39, 145);
   border-bottom: 2px solid rgb(0, 31, 116);
   padding-bottom: 5px;
@@ -61,7 +61,8 @@
 #Color-switcher {
   position: relative;
   margin-left: 80px;
-  background-color: #0f0f0f;
+  margin-top: -1px;
+  background-color: #ffffff;
   width: 60px;
   height: 30px;
   border-radius: 20px;
@@ -71,7 +72,7 @@
   position: absolute;
   left: 5px;
   top: 4px;
-  background-color: #fff;
+  background-color: #000000;
   width: 23px;
   height: 23px;
   border-radius: 50%;
@@ -80,11 +81,20 @@
 
 #Color-switcher-moved {
   position: absolute;
-  background-color: #fff;
+  background-color: #000000;
   left: 33px;
   top: 4px;
   width: 23px;
   height: 23px;
   border-radius: 50%;
   transition: .6s;
+}
+
+@media (max-width: 996px) {
+  .nav .navbar-toggle{
+    margin-left: 10px;
+  }
+  #Color-switcher{
+    margin-left: 57px;
+  }
 }
