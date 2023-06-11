@@ -1,0 +1,42 @@
+.slider-container {
+    background-color: #363636;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+
+    h2 {
+        background-color: #000;
+        color: #fff;
+        line-height: 2;
+        padding: 0 40px;
+        display: block;
+        font-weight: 500;
+    }
+
+    .carousel {
+        text-align: center;
+
+        .slider-wrapper {
+            width: 60%;
+        }
+
+        .thumb {
+            height: 100%;
+        }
+
+        p {
+            display: none;
+        }
+
+        .title {
+            color: #fff;
+            font-size: 25px;
+            padding-top: 10px;
+            padding-bottom: 33px;
+            text-align: center;
+            font-weight: 600;
+        }
+    }
+}
