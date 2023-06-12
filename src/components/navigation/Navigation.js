@@ -36,11 +36,12 @@ function Navigation() {
                   style={({ isActive }) => { return { color: isActive ? '#268BFF' : '#fff' } }}>
                   CONTACT
                 </NavLink>
-              </Nav>
-            </Navbar.Collapse>
-            <div id='Color-switcher' onClick={() => setToggle(!toggle)}>
+                <div id='Color-switcher' onClick={() => setToggle(!toggle)}>
               <div id={toggle ? 'Color-switcher-mover' : 'Color-switcher-moved'}></div>
             </div>
+              </Nav>
+            </Navbar.Collapse>
+            
           </Navbar>
         </Container>
       </div>

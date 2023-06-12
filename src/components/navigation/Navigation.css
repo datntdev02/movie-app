@@ -60,9 +60,9 @@
 }
 
 #Color-switcher {
-  position: relative;
-  margin-left: 80px;
-  margin-top: -1px;
+  position: absolute;
+  right: 0;
+  margin-top: 7px;
   background-color: #ffffff;
   width: 60px;
   height: 30px;
@@ -93,10 +93,11 @@
 
 @media (max-width: 996px) {
   .nav .navbar-toggle {
-    margin-left: 10px;
+    margin-left: 0;
   }
 
   #Color-switcher {
+    position: relative;
     margin-left: 57px;
   }
 }
