@@ -1,10 +1,11 @@
 import React from 'react'
-import './ModalCase.css'
+import './ModalCase.scss'
 
 function ModalCase({ setIsOpen, film }) {
     return (
+
         <div className='modal-show' onClick={() => setIsOpen(false)}>
-            <div id='modal1' className='modal' style={{ display: 'block', top: '48%' }}>
+            <div id='modal1' className='modal' style={{ display: 'block', top: '38%' }}>
                 <span className='close-btn' onClick={() => setIsOpen(true)}>x</span>
                 <div className='modal-content'>
                     <iframe

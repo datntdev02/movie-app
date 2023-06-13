@@ -1,29 +1,6 @@
-:root {
-    --background: rgb(210, 250, 255);
-    --layout-container: rgb(107, 200, 253);
-    --nav-bg-color: rgb(54, 186, 238);
-    --text-title: black;
-    --text-primary: white;
-    --text-secondary: rgb(54, 186, 238);
-    --text-active: rgb(0, 31, 116);
-    --border: rgb(0, 0, 0);
-    --button-color: rgb(0, 116, 211);
-}
-
-[data-theme='dark'] {
-    --background: rgb(29, 35, 36);
-    --layout-container: rgb(15, 61, 88);
-    --nav-bg-color: rgb(16, 76, 100);
-    --text-title: rgb(255, 255, 255);
-    --text-primary: rgb(0, 0, 0);
-    --text-secondary: rgb(15, 68, 88);
-    --text-active: rgb(82, 117, 214);
-    --border: rgb(255, 255, 255);
-    --button-color: rgb(31, 71, 104);
-}
-
 .App {
-    background-color: var(--background);
+    background-color: #363636;
+    width: 100%;
     min-height: 100vh;
     justify-content: center;
     display: flex;

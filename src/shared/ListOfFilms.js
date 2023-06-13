@@ -122,7 +122,7 @@ export const Films = [
     {
         id: 11,
         img: 'assets/images/film/pinocchio.jpg',
-        title: 'Pinocchio',
+        title: 'Guillermo Del Toro’s Pinocchio',
         year: '2022',
         nation: 'USA',
         rating: '7.6',
@@ -142,5 +142,41 @@ export const Films = [
         type: 'Action, Comedy, Thriller',
         info: 'Deadpool 2 and Atomic Blonde director David Leitch helms the fast-paced, action-comedy adventure Bullet Train that casts Brad Pitt as a tired assassin who would like nothing more than to retire from the murder game. Unfortunately, his latest mission has him taking on an entire train full of hired killers as it speeds through Japan. Joey King, Aaron Taylor-Johnson, Brian Tyree Henry, Andrew Koji, Hiroyuki Sanada, Michael Shannon, Bad Bunny, and Sandra Bullock round out the film’s ensemble cast.',
         clip: 'https://www.youtube.com/embed/UgTPhaNQTWg'
+    },
+    {
+        id: 13,
+        img: 'assets/images/film/dnd.jpg',
+        title: 'Dungeons & Dragons: Honor Among Thieves',
+        year: '2023',
+        nation: 'USA',
+        rating: '7.3',
+        time: '2h 14m',
+        type: 'Action, Adventure, Comedy, Fantasy',
+        info: 'A charming thief and a band of unlikely adventurers undertake an epic heist to retrieve a lost relic, but things go dangerously awry when they run afoul of the wrong people. Dungeons and Dragons: Honor Among Thieves brings the rich world and playful spirit of the legendary roleplaying game to the big screen in a hilarious and action-packed adventure.',
+        clip: 'https://www.youtube.com/embed/IiMinixSXII'
+    },
+    {
+        id: 14,
+        img: 'assets/images/film/interstellar.jpg',
+        title: 'Interstellar',
+        year: '2014',
+        nation: 'USA',
+        rating: '8.7',
+        time: '2h 49m',
+        type: 'Adventure, Drama, Sci-Fi',
+        info: 'Earth’s future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind’s survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life.',
+        clip: 'https://www.youtube.com/embed/zSWdZVtXT7E'
+    },
+    {
+        id: 15,
+        img: 'assets/images/film/shawshank.jpg',
+        title: 'The Shawshank Redemption',
+        year: '1994',
+        nation: 'USA',
+        rating: '9.3',
+        time: '2h 22m',
+        type: 'Drama',
+        info: 'Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man’s unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red.',
+        clip: 'https://www.youtube.com/embed/NmzuHjWmXOc'
     },
 ];

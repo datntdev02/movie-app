@@ -1,0 +1,68 @@
+.detail-container {
+    background-color: #2c2c2c;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    flex-direction: row;
+
+    .detail-img {
+        img {
+            width: 100%;
+            padding: 15px 20px;
+            border-radius: 24px;
+        }
+    }
+
+    .detail-movie {
+        width: 92%;
+        margin: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+
+        .detail-header {
+            h2 {
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                color: #fff;
+                font-size: 42px;
+                text-align: center;
+                padding: 20px;
+            }
+        }
+
+        .detail {
+            padding: 10px 20px;
+            margin-bottom: -30px;
+
+            .year,
+            .nation,
+            .type,
+            .time,
+            .description {
+                color: #000;
+                text-align: left;
+                font-size: 18px;
+                margin: 5px;
+                letter-spacing: 2px;
+
+                p {
+                    color: #000;
+                    text-align: justify;
+                    line-height: 25px;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .trailer-button {
+            padding: 20px 20px;
+        }
+
+    }
+}
+
+@media (max-width: 960px) {
+    .detail-container {
+        flex-direction: column;
+    }
+}
