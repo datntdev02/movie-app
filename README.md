@@ -1,8 +1,7 @@
 # Welcome Movie App
 
 ### Introduction
-This is a basic app using ReactJS (React Components, React Hook, React Route,...).\
-
+This is a basic app using ReactJS (React Components, React Hook, React Route,...).
 
 ### `npm i`
 Run this command before npm start.
